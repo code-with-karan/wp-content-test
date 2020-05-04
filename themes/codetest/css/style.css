@@ -1,0 +1,153 @@
+/*
+Theme Name: codetest
+Author: Karan Narvani
+*/
+	body
+	{
+		overflow-x: hidden;
+	}
+	.slide 
+	{
+	  /* The image used */ 
+	   background:url(../images/modernist-decor-inspiration-01.jpg);  
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size:cover;
+	  height: 600px;
+	}
+	.Ar
+	{
+	    padding-left: 121px;
+	    font-size: 2.5rem;
+	    padding-top: 150px !important;
+	    color: white;
+	    font-weight:300px;
+	    font-size:60px; 
+	}
+	.pos
+	{
+		position:absolute;
+		top:0;
+		right:0; 
+	}
+	.second
+	{
+		margin-top:100px;
+	}
+	.mysp
+	{
+		margin-top:40px;
+	}
+	.firstc
+	{
+		font-weight:bolder;
+	}
+	.col
+	{
+		color: black;
+		font-weight:200px;
+	}
+	.third
+	{
+		margin-top:100px;
+	}
+	.link1
+	{
+		margin-top:20px !important; 
+		padding-top: 20px;
+		color:red;
+	}
+	.four
+	{
+		margin-top: 100px;
+	}
+	.four h1
+	{
+		font-size: 60px;
+	}
+	.con2
+	{
+		margin-top:30px;
+	}
+	.nimg
+	{
+		object-fit: cover;		
+	}
+	p,h1,h2,h3,h4,h5,h6
+	{
+		text-align: justify;
+	}
+	p
+	{
+		color:#6a6a6a;
+	}
+	* {box-sizing: border-box;}
+
+.container2 {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 95%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay
+ {
+  opacity: 1;
+}
+
+.container3 {
+  position: relative;
+  width: 50%;
+}
+
+.image3{
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container3:hover .image3 {
+  opacity: 0.3;
+}
+
+.container3:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
